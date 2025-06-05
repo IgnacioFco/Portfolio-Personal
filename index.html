@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ignacio Mendoz </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/jpg" href="/imagenes/fotplay1editdefffffiiiiiiiiii.png">
+    <meta name="description" content="Portfolio Personal">
+
+</head>
+<body>
+    
+    <!-- Secciones nav -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">IM</a>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ignacio Pablo Mendoz</h1>
+            <p>Desarrollador Full Stack en formación | Especializado en Java, JavaScript y Desarrollo Web.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code"></i>
+                    Ver Proyectos
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Contactar
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mi -->
+ <section id="about" class="section loading">
+    <h2 class="section-title">Sobre Mí</h2>
+    <div class="about-content">
+        <div class="about-image">
+            <img src="./imagenes/fotplay1editdefffffiiiiiiiiii.png" alt="Foto de perfil de Ignacio" class="profile-picture">
+        </div>
+        <div class="about-text">
+            <h3>¡Hola! Soy Ignacio</h3>
+            <p>Estudiante de Programación con una mentalidad orientada al aprendizaje y la resolución de problemas. Actualmente cursando la Tecnicatura en Programación de Sistemas en UCES, con amplios conocimientos en desarrollo Front-End, Back-End y Bases de Datos.</p>
+            <p>Mi pasión por la tecnología me ha llevado a especializarme en diversos campos desde Java, JavaScript, React, Spring Boot y desarrollo web moderno. Siempre busco nuevos desafíos y oportunidades para crecer profesionalmente.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>ignaciomendoz20@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>1130478014</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Capital Federal, Argentina</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Inglés B2 - Metodologías Ágiles</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section loading">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Lenguajes de Programación</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">Kotlin</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Frameworks & Backend</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">Spring Boot</span>
+                    <span class="skill-tag">Hibernate</span>
+                    <span class="skill-tag">JPA</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">Maven</span>
+                    <span class="skill-tag">Gradle</span>
+                    <span class="skill-tag">React JS</span>
+                    <span class="skill-tag">SASS</span>
+
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Herramientas & Metodologías</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Unix</span>
+                    <span class="skill-tag">Postman</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">Metodologías Ágiles</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects" class="section loading">
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">Sistema de Gestión de Concesionario (JAVA)</h3>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Aplicación completa para la gestión de ventas en un concesionario. Implementa conceptos avanzados de POO, persistencia de datos con JPA/Hibernate y arquitectura REST. Incluye sistema de facturación y gestión de inventario.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Hibernate</span>
+                        <span class="tech-tag">JPA</span>
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Postman</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/IgnacioFco/FacturacionEntregaProyectoFinal-Mendoz" class="project-link github" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Ver Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">E-commerce Web Platform(Front-End)</h3>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Sitio web de comercio electrónico completamente funcional desarrollado con tecnologías front-end modernas. Incluye sistema de filtros, diseño responsive y optimización SEO.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">SASS</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/IgnacioFco/Proyecto-FakeEcommerce" class="project-link github" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Ver Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">Aplicación Web E-commerce</h3>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Proyecto  demuestra el dominio de conceptos fundamentales de Front y Back-End. Implementa Arquitectura MVC, integración de APIs externas y Back-End.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">MVC Pattern</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/IgnacioFco/Entregable2-Mendoz" class="project-link github" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Ver Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="social-links">
+            <a href="mailto:ignaciomendoz20@gmail.com" class="social-link">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ignacio-mendoz-568911301" class="social-link" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/IgnacioFco" class="social-link" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/541130478014" class="social-link" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Ignacio Pablo Mendoz. Todos los derechos reservados.</p>
+        <p>Desarrollador Full Stack | Buenos Aires, Argentina</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
