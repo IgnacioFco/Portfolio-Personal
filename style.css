@@ -210,6 +210,31 @@
             }
         }
 
+
+        /* Punto verde */
+
+        .punto-verde {
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        margin-left: 5px;
+        border-radius: 80%;
+        background-color: #28a745;
+        animation: blink 1.5s infinite;
+        box-shadow: 0 0 5px #28a745;
+        }
+
+        @keyframes blink {
+        0%, 100% {
+        opacity: 1;
+            }
+        50% {
+            opacity: 0.2;
+            }
+        }
+
+
+
         /* Sections */
         .section {
             padding: 5rem 0;
